@@ -15,7 +15,7 @@ To implement this, I used a script from the DeepDreamVideo repository(linked bel
 *1_movie2frames.sh* - Converts a movie into frames at a rate of 30 frames per second. Adapted from [DeepDreamVideo](https://github.com/graphific/DeepDreamVideo)
 
 ## Results
-*dreamception.mp4* - Output video with all of the frames  [Link](https://youtu.be/DTX_ZW3Mj9U)\
+*dreamception.mp4* - Output video with all of the frames  [Link](https://youtu.be/NQO1ugmhjWI)\
 *deepdreamtest.mp4* - Short raw test output using random frames [Link](https://youtu.be/Q8WGfOdszwE)
 
 ## Technical Notes
