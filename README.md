@@ -15,8 +15,8 @@ To implement this, I used a script from the DeepDreamVideo repository(linked bel
 *1_movie2frames.sh* - Converts a movie into frames at a rate of 30 frames per second. Adapted from [DeepDreamVideo](https://github.com/graphific/DeepDreamVideo)
 
 ## Results
-*dreamception.mp4* - Output video with all of the frames  [Link]\
-*deepdreamtest.mp4* - Short raw test output using random frames [Link](https://youtu.be/Q8WGfOdszwE)\
+*dreamception.mp4* - Output video with all of the frames  [Link](https://youtu.be/DTX_ZW3Mj9U)\
+*deepdreamtest.mp4* - Short raw test output using random frames [Link](https://youtu.be/Q8WGfOdszwE)
 
 ## Technical Notes
 First run `./1_movie2frames.sh ffmpeg [original_video] [frames_directory] jpg` to split the video into frames. Then run through the steps of the notebook to reproduce the output. I used every other photo for the deepdream algorithm (thus converting 30fps to 15fps) to save on time. This process took around 24 hours to complete for a 90 second video, processing about 1 frame per minute. After the video was complete, I added back the original audio, and uploaded it to YouTube.
