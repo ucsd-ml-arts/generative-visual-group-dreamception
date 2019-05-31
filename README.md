@@ -21,7 +21,7 @@ Include your abstract here. This should be one paragraph clearly describing your
 
 ## Technical Notes
 First run `./1_movie2frames.sh ffmpeg [original_video] [frames_directory] jpg` to split the video into frames. Then run through the steps of the notebook to reproduce the output. I used every other photo for the deepdream algorithm (thus converting 30fps to 15fps) to save on time. This process took around 24 hours to complete for a 90 second video, processing about 1 frame per minute. 
-*Note* ffmpeg is needed to generate the video from the frames.
+*Note:* ffmpeg is needed to generate the video from the frames.
 
 ## Reference
 [DeepDream](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)\
