@@ -7,7 +7,7 @@ Since the beginning of this quarter, I was really facinated by the Google DeepDr
 To implement this, I used a script from the DeepDreamVideo repository(linked below) to split the 90 second scene into 2650 frames (30 fps). Although the DeepDreamVideo repository had a script to automate transforming each image into a DeepDream version and gluing them backtogether, unfortunatly, the script was written in Python 2.7 and required caffe which was not installed on our image. So I decided to implement the method myself using ideas from the DeepDream notebook that we tried in class. To save on processing time, I only processed every other image, and glued back the images at 15fps which did decrease the quality of the video. The processing took a full 24 hours (including a few restarts of the server), but ended up being successful. I think the final product amplies the intensity of the original dream collapsing scene in a freakish way. 
 
 ## Model/Data
-[Inception5h Deep Dream Model](https://storage.googleapis.com/download.tensorflow.org/models/inception5h.zip)
+[Inception5h Deep Dream Model](https://storage.googleapis.com/download.tensorflow.org/models/inception5h.zip)\
 [Inception Dream is Collapsing](https://www.youtube.com/watch?v=TRDbQwi3T8k) - Base video used to generate the output (used only 1:49 - end)
 
 ## Code
